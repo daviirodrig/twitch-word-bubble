@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #101019;
+  color: azure;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #2b2a33;
+  border: none;
+  transition: 0.1s;
+  color: azure;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+input#channel {
+  background-color: #2b2a33;
+  color: azure;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+label {
+  text-align: center;
+}
+
+input#volume {
+  width: 100%;
+}
+
+.container {
+  background-color: #191926;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.trigger {
+  color: #6791fc;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
